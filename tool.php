@@ -1,3 +1,6 @@
+
+error_reporting(0); 
+session_start(); 
 $luc = "\033[0;37m"; 
 $do="\033[1;91m"; 
 $vang="\033[1;93m"; 
@@ -61,6 +64,53 @@ $An_Orin= $do."[".$luc."●".$do."] ".$trang."=> ";
 $thanh_xau= $trang."".$luc."[".$luc."●".$luc."] ".$trang."➩ "; 
 $thanh_dep= $trang."".$luc."[".$luc."✓".$luc."] "; 
 $thanh_dac_biet= $trang."➩ "; 
+
+system('clear');
+$checkkey  = file('https://pastebin.com/raw/RmvdGWeJ');
+
+$lock=file_get_contents('https://pastebin.com/raw/RmvdGWeJ');
+
+$keylock=md5(htmlspecialchars($lock));
+if (md5('lock') != $keylock){
+}
+
+$string = strlen($banner);
+for($i=0; $i<=$string; $i++){
+echo $banner[$i];usleep(500);}
+while (true){
+
+echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \n"; echo"\033[1;33m \033[1;32m
+
+ ███╗   ██╗████████╗██████╗     ████████╗ ██████╗  ██████╗ ██╗     
+ ████╗  ██║╚══██╔══╝██╔══██╗    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
+ ██╔██╗ ██║   ██║   ██████╔╝       ██║   ██║   ██║██║   ██║██║     
+ ██║╚██╗██║   ██║   ██╔══██╗       ██║   ██║   ██║██║   ██║██║     
+ ██║ ╚████║   ██║   ██████╔╝       ██║   ╚██████╔╝╚██████╔╝███████╗
+╚═╝  ╚═══╝   ╚═╝   ╚═════╝        ╚═╝     ╚═════╝  ╚═════╝ ╚══════╝
+                                                                  
+ \n";
+      
+echo $thuong."\033[1;32mLink lấy key: ".$red."    https://mneylink.com/h21jGt\n"; 
+echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
+      $makey = trim(fgets(STDIN));
+    if ($makey == $checkkey[0]) 
+   
+    {
+    sleep(1);
+        echo "\033[1;32";
+        echo "\n";
+        $a = 1;
+        echo("$a");
+        break;
+    } else {
+        echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
+        
+$hong                   https://mneylink.com/cB5ttGr\n";
+        echo $vang."-------------------------------------------\n"; 
+        sleep(1);
+       }
+       }	
+
 @system("clear"); echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \n"; echo"\033[1;33m \033[1;32m
  ███╗   ██╗████████╗██████╗     ████████╗ ██████╗  ██████╗ ██╗     
  ████╗  ██║╚══██╔══╝██╔══██╗    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
@@ -94,3 +144,4 @@ else if ($chedo == '13'){eval(file_get_contents('https://run.mocky.io/v3/1bd1d54
 else if ($chedo == '16.16'){eval(file_get_contents('https://run.mocky.io/v3/968d44ae-f05e-407a-a540-1dc75df6eb6f')); } 
 else if ($chedo == '17'){eval(file_get_contents('https://run.mocky.io/v3/d59346ac-f057-4f48-9143-743d88ee3199')); } 
 else if ($chedo == '18'){eval(file_get_contents('https://run.mocky.io/v3/6a305413-ab9f-4a69-aac8-1af7268c2b86')); } 
+else if ($chedo == '19'){eval(file_get_contents('https://raw.githubusercontent.com/ntbtool3008/ntbtool3008/main/tool.php')); } 
