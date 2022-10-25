@@ -90,7 +90,7 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
                                                                   
  \n";
       
-echo $thuong."\033[1;32mLink lấy key: ".$red."    https://mneylink.com/h21jGt\n"; 
+echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/pC1bD3W\n"; 
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
@@ -105,7 +105,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
     } else {
         echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
         
-$hong                   https://mneylink.com/cB5ttGr\n";
+$hong                   https://mneylink.com/pC1bD3W\n";
         echo $vang."-------------------------------------------\n"; 
         sleep(1);
        }
