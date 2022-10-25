@@ -66,9 +66,9 @@ $thanh_dep= $trang."".$luc."[".$luc."✓".$luc."] ";
 $thanh_dac_biet= $trang."➩ "; 
 
 system('clear');
-$checkkey  = file('https://pastebin.com/raw/RmvdGWeJ');
+$checkkey  = file('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
 
-$lock=file_get_contents('https://pastebin.com/raw/RmvdGWeJ');
+$lock=file_get_contents('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
 
 $keylock=md5(htmlspecialchars($lock));
 if (md5('lock') != $keylock){
