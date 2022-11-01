@@ -13,9 +13,9 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
+$checkkey  = file('https://run.mocky.io/v3/f77233d3-4add-4c7b-8bfc-58d5fadbc3b6');
 
-$lock=file_get_contents('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
+$lock=file_get_contents('https://run.mocky.io/v3/f77233d3-4add-4c7b-8bfc-58d5fadbc3b6');
 
 $keylock=md5(htmlspecialchars($lock));
 if (md5('lock') != $keylock){
@@ -37,7 +37,7 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
                                                                   
  \n";
       
-echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/pC1bD3W\n"; 
+echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/kuZCIp7\n"; 
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
