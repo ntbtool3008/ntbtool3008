@@ -1,3 +1,4 @@
+<?php
 error_reporting(0); session_start(); date_default_timezone_set("Asia/Ho_Chi_Minh"); $useragent = "Mozilla/5.0 (Linux; Android 10; SM-J600G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36"; $ip = file_get_contents('http://kiemtraip.com/raw.php'); $ress = "\033[0;32m"; $ress = "\033[0;32m"; $res = "\033[0;33m"; $red = "\033[0;31m"; $green = "\033[0;37m"; $vang = "\033[1;93m"; $white = "\033[0;33m"; $xnhac = "\033[1;96m"; $den = "\033[1;90m"; $do = "\033[1;91m"; $luc = "\033[1;92m"; $xduong = "\033[1;94m"; $hong = "\033[1;95m"; $trang = "\033[1;97m"; $BBlack = "\033[1;30m"; $BRed = "\033[1;31m"; $BGreen = "\033[1;32m"; $BYellow = "\033[1;33m"; $BBlue = "\033[1;34m"; $BPurple = "\033[1;35m"; $BCyan = "\033[1;36m"; $BWhite = "\033[1;37m"; $Blue = "\033[0;34m"; $lime = "\033[1;32m"; $red = "\033[1;31m"; $xanh = "\033[1;32m"; $cyan = "\033[1;36m"; $yellow = "\033[1;33m"; $turquoise = "\033[1;34m"; $maugi = "\033[1;35m"; $white = "\033[1;37m"; $thuong = $do."[".$luc."●".$do."]".$trang." => "; $thanhngang = $vang."-------------------------------------------------------------\n";
 $weekday = date("l"); 
 $ngay = date("d"); 
@@ -13,9 +14,9 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/f77233d3-4add-4c7b-8bfc-58d5fadbc3b6');
+$checkkey  = file('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
 
-$lock=file_get_contents('https://run.mocky.io/v3/f77233d3-4add-4c7b-8bfc-58d5fadbc3b6');
+$lock=file_get_contents('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
 
 $keylock=md5(htmlspecialchars($lock));
 if (md5('lock') != $keylock){
@@ -37,7 +38,7 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
                                                                   
  \n";
       
-echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/kuZCIp7\n"; 
+echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/pC1bD3W\n"; 
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
@@ -109,6 +110,11 @@ $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m2.1\033[1;31m] \033[1;32mToo
 
 
 $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m2.2\033[1;31m] \033[1;32mTool TTC TIKTOK\n".
+
+
+
+$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m2.3\033[1;31m] \033[1;32mTool TTC YOUTUBE\n".
+
 
 
 
@@ -192,6 +198,8 @@ else if ($nhaptool2 == '2') eval(file_get_contents("https://run.mocky.io/v3/654a
 else if ($nhaptool2 == '2.1') eval(file_get_contents("https://run.mocky.io/v3/968d44ae-f05e-407a-a540-1dc75df6eb6f"));
 
 else if ($nhaptool2 == '2.2') eval(file_get_contents("https://run.mocky.io/v3/1bd1d542-50f6-4364-883e-8df33b556960"));
+
+else if ($nhaptool2 == '2.3') eval(file_get_contents("https://pastebin.com/raw/LPW00Laa"));
 
 else if ($nhaptool2 == '3') eval(file_get_contents("https://run.mocky.io/v3/d59346ac-f057-4f48-9143-743d88ee3199"));
 
