@@ -146,8 +146,12 @@ $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4\033[1;31m] \033[1;32mTool 
 $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.1\033[1;31m] \033[1;32mChuyển page vị trí\n".
 
 
+$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.2\033[1;31m] \033[1;32mthêm bạn bè \n".
 
-$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.2\033[1;31m] \033[1;32mLấy id Facebook\n".
+
+
+
+$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.3\033[1;31m] \033[1;32mLấy id Facebook\n".
 
 
 
@@ -208,7 +212,10 @@ else if ($nhaptool2 == '4') eval(file_get_contents("https://run.mocky.io/v3/f54b
 
 else if ($nhaptool2 == '4.1') eval(file_get_contents("https://run.mocky.io/v3/8bc3cadb-05de-4b2b-87d3-3d32ea19af39"));
 
-else if ($nhaptool2 == '4.2') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
+else if ($nhaptool2 == '4.2') eval(file_get_contents("https://pastebin.com/raw/ba2Lrxej"));
+
+
+else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
 
 else if ($nhaptool2 == '5') eval(file_get_contents("https://run.mocky.io/v3/5b2881b4-83db-4a61-8071-036a70ccb27b"));
 else if ($nhaptool2 == '25') {
