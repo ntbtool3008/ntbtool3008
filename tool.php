@@ -13,9 +13,9 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
+$checkkey  = file('https://run.mocky.io/v3/c4030e50-0b72-4fc7-a858-124bfe2fe9e7');
 
-$lock=file_get_contents('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
+$lock=file_get_contents('https://run.mocky.io/v3/c4030e50-0b72-4fc7-a858-124bfe2fe9e7');
 
 $keylock=md5(htmlspecialchars($lock));
 if (md5('lock') != $keylock){
@@ -37,7 +37,10 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
                                                                   
  \n";
       
-echo $thuong."\033[1;32mLink lấy key: ".$red."  https://mneylink.com/pC1bD3W\n"; 
+echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$red." \n \n       
+       https://mneylink.com/RElZYnlw\n
+       \n
+       \n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
@@ -212,7 +215,7 @@ else if ($nhaptool2 == '4') eval(file_get_contents("https://run.mocky.io/v3/f54b
 
 else if ($nhaptool2 == '4.1') eval(file_get_contents("https://run.mocky.io/v3/8bc3cadb-05de-4b2b-87d3-3d32ea19af39"));
 
-else if ($nhaptool2 == '4.2') eval(file_get_contents("https://run.mocky.io/v3/0565101e-8ac2-4d81-ae81-b20244ce9fa3"));
+else if ($nhaptool2 == '4.2') eval(file_get_contents("https://pastebin.com/raw/ba2Lrxej"));
 
 
 else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
