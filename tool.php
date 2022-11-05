@@ -215,7 +215,7 @@ else if ($nhaptool2 == '4') eval(file_get_contents("https://run.mocky.io/v3/f54b
 
 else if ($nhaptool2 == '4.1') eval(file_get_contents("https://run.mocky.io/v3/8bc3cadb-05de-4b2b-87d3-3d32ea19af39"));
 
-else if ($nhaptool2 == '4.2') eval(file_get_contents("https://pastebin.com/raw/ba2Lrxej"));
+else if ($nhaptool2 == '4.2') eval(file_get_contents("https://run.mocky.io/v3/0565101e-8ac2-4d81-ae81-b20244ce9fa3"));
 
 
 else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
