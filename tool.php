@@ -13,9 +13,8 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
+$checkkey  = file('https://run.mocky.io/v3/f08b58bf-fc51-4a2e-8013-6b3176ebea2b');
 
-$lock=file_get_contents('https://run.mocky.io/v3/8f8dfab3-b53c-4f6c-ae77-6537e94d63f4');
 
 $keylock=md5(htmlspecialchars($lock));
 if (md5('lock') != $keylock){
@@ -38,7 +37,7 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
  \n";
       
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$red." \n \n       
-       https://mneylink.com/pC1bD3W\n
+       https://mneylink.com/Dm5Vn2DO\n
        \n
        \n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
@@ -55,7 +54,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
     } else {
         echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
         
-$hong                   https://mneylink.com/pC1bD3W\n";
+$hong                   https://mneylink.com/Dm5Vn2DO\n";
         echo $vang."-------------------------------------------\n"; 
         sleep(1);
        }
