@@ -13,7 +13,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/f3bb5dc2-e335-48c2-b814-2d696ce22dcb');
+$checkkey  = file('https://run.mocky.io/v3/5907e9fe-a7b5-4db4-9e08-e56742a86c38');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -37,7 +37,7 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
  \n";
       
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$red." \n \n       
-       https://mneylink.com/ntbtool\n
+       https://mneylink.com/V766JWa\n
        \n
        \n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
@@ -54,7 +54,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
     } else {
         echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
         
-$hong                   https://mneylink.com/ntbtool\n";
+$hong                   https://mneylink.com/V766JWa\n";
         echo $vang."-------------------------------------------\n"; 
         sleep(1);
        }
