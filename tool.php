@@ -1,4 +1,37 @@
-error_reporting(0); session_start(); date_default_timezone_set("Asia/Ho_Chi_Minh"); $useragent = "Mozilla/5.0 (Linux; Android 10; SM-J600G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36"; $ip = file_get_contents('http://kiemtraip.com/raw.php'); $ress = "\033[0;32m"; $ress = "\033[0;32m"; $res = "\033[0;33m"; $red = "\033[0;31m"; $green = "\033[0;37m"; $vang = "\033[1;93m"; $white = "\033[0;33m"; $xnhac = "\033[1;96m"; $den = "\033[1;90m"; $do = "\033[1;91m"; $luc = "\033[1;92m"; $xduong = "\033[1;94m"; $hong = "\033[1;95m"; $trang = "\033[1;97m"; $BBlack = "\033[1;30m"; $BRed = "\033[1;31m"; $BGreen = "\033[1;32m"; $BYellow = "\033[1;33m"; $BBlue = "\033[1;34m"; $BPurple = "\033[1;35m"; $BCyan = "\033[1;36m"; $BWhite = "\033[1;37m"; $Blue = "\033[0;34m"; $lime = "\033[1;32m"; $red = "\033[1;31m"; $xanh = "\033[1;32m"; $cyan = "\033[1;36m"; $yellow = "\033[1;33m"; $turquoise = "\033[1;34m"; $maugi = "\033[1;35m"; $white = "\033[1;37m"; $thuong = $do."[".$luc."●".$do."]".$trang." => "; $thanhngang = $vang."-------------------------------------------------------------\n";
+error_reporting(0); session_start(); date_default_timezone_set("Asia/Ho_Chi_Minh"); $useragent = "Mozilla/5.0 (Linux; Android 10; SM-J600G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36"; $ip = file_get_contents('http://kiemtraip.com/raw.php');
+$ress = "\033[0;32m"; 
+$ress = "\033[0;32m";
+$res = "\033[0;33m";
+$red = "\033[0;31m";
+$green = "\033[0;37m";
+$vang = "\033[1;93m";
+$white = "\033[0;33m";
+$xnhac = "\033[1;96m";
+$den = "\033[1;90m";
+$do = "\033[1;91m"; 
+$luc = "\033[1;92m"; 
+$xduong = "\033[1;94m";
+$hong = "\033[1;95m";
+$trang = "\033[1;97m";
+$BBlack = "\033[1;30m"; 
+$BRed = "\033[1;31m";
+$BGreen = "\033[1;32m";
+$BYellow = "\033[1;33m";
+$BBlue = "\033[1;34m"; 
+$BPurple = "\033[1;35m"; 
+$BCyan = "\033[1;36m";
+$BWhite = "\033[1;37m";
+$Blue = "\033[0;34m";
+$lime = "\033[1;32m";
+$red = "\033[1;31m";
+$xanh = "\033[1;32m";
+$cyan = "\033[1;36m";
+$yellow = "\033[1;33m";
+$turquoise = "\033[1;34m";
+$maugi = "\033[1;35m"; 
+$white = "\033[1;37m";
+$thuong = $do."[".$luc."●".$do."]".$trang." => "; 
+$thanhngang = $vang."-------------------------------------------------------------\n";
 $weekday = date("l"); 
 $ngay = date("d"); 
 $thang = date("m"); 
@@ -13,7 +46,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/5907e9fe-a7b5-4db4-9e08-e56742a86c38');
+$checkkey  = file('https://run.mocky.io/v3/c3240ef6-1cd2-4785-b2dc-f7df5dcd54a5');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -36,8 +69,11 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
                                                                   
  \n";
       
-echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$red." \n \n       
-       https://mneylink.com/V766JWa\n
+echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$trang." \n \n       
+       https://mneylink.com/F61yOeKl\n
+      $vang Hoặc là link bên dưới\n
+      $trang http://traffic1s.com/3giDm
+      \n
        \n
        \n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
@@ -220,8 +256,6 @@ else if ($nhaptool2 == '4.2') eval(file_get_contents("https://run.mocky.io/v3/3a
 else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
 
 else if ($nhaptool2 == '5') eval(file_get_contents("https://run.mocky.io/v3/5b2881b4-83db-4a61-8071-036a70ccb27b"));
-else if ($nhaptool2 == '25') {
-    echo $thuong.$luc."Đang Lao Đến Gặp Admin Thưởng Đẹp Trai\n"; @system('xdg-open https://www.facebook.com/nongvanthuong8395'); sleep(3);
-} else {
+ else {
     echo $thuong.$luc."Nhập Sai Vui Lòng Chạy Lại Tool\n";
 } ?>
