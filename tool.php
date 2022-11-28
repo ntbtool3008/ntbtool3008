@@ -46,7 +46,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/c3240ef6-1cd2-4785-b2dc-f7df5dcd54a5');
+$checkkey  = file('https://run.mocky.io/v3/51e76444-67cb-4151-9a27-6ceb3e6063fd');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -70,9 +70,9 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
  \n";
       
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$trang." \n \n       
-       https://mneylink.com/F61yOeKl\n
+       https://mneylink.com/tyxFkN\n
       $vang Hoặc là link bên dưới\n
-      $trang http://traffic1s.com/3giDm
+      $trang http://traffic1s.com/nQ1P
       \n
        \n
        \n";
