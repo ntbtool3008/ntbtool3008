@@ -222,18 +222,6 @@ else if ($nhaptool2 == '1.3') eval(file_get_contents("https://run.mocky.io/v3/7a
 
 else if ($nhaptool2 == '1.4') eval(file_get_contents("https://run.mocky.io/v3/fe0b3718-39be-479d-9dd3-b91824ab1322"));
 
-else if ($nhaptool2 == '6') eval(file_get_contents("https://run.mocky.io/v3/0df97133-7093-47d7-82fa-ff817e28b32f"));
-
-else if ($nhaptool2 == '7') eval(file_get_contents("https://run.mocky.io/v3/bfa1d3f0-b5e1-4d22-a9b6-d140e587e6b6"));
-
-else if ($nhaptool2 == '1.1') eval(file_get_contents("https://pastebin.com/raw/v1V1CYyx"));
-
-else if ($nhaptool2 == '1.2') eval(file_get_contents("https://run.mocky.io/v3/c5a98ef2-46ae-4ae9-aa36-cb5d3f2ba611"));
-
-else if ($nhaptool2 == '1.3') eval(file_get_contents("https://run.mocky.io/v3/7ab7f56d-68f9-4f29-8959-06278901f41d"));
-
-else if ($nhaptool2 == '1.4') eval(file_get_contents("https://run.mocky.io/v3/fe0b3718-39be-479d-9dd3-b91824ab1322"));
-
 else if ($nhaptool2 == '2') eval(file_get_contents("https://run.mocky.io/v3/654aa924-9dad-4f39-ba38-2c23e165b794"));
 
 else if ($nhaptool2 == '2.1') eval(file_get_contents("https://run.mocky.io/v3/968d44ae-f05e-407a-a540-1dc75df6eb6f"));
