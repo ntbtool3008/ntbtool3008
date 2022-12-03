@@ -46,7 +46,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/cb93222c-b111-4e85-961f-46e10c2b61e4');
+$checkkey  = file('https://run.mocky.io/v3/51e76444-67cb-4151-9a27-6ceb3e6063fd');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -68,11 +68,12 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
 ╚═╝  ╚═══╝   ╚═╝   ╚═════╝        ╚═╝     ╚═════╝  ╚═════╝ ╚══════╝
                                                                   
  \n";
-      
+ 
+ 
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$trang." \n \n       
-       https://mneylink.com/TVtPz0\n
+       https://mneylink.com/tyxFkN\n
       $vang Hoặc là link bên dưới\n
-      $trang http://traffic1s.com/ppS4Uk0
+      $trang http://traffic1s.com/nQ1P
       \n
        \n
        \n";
@@ -101,7 +102,14 @@ $hong                   https://mneylink.com/V766JWa\n";
 $banner1 = "\033[1;32m╔═════════════════════════════════════════════════════════════════╗\n". $thuong.$vang."Tool Víp Gộp Nhiều Chế Độ \n". $thuong.$xnhac."YOUTUBE: NTB TOOL\n". $thuong.$BBlue."Zalo".$do."https://zalo.me/g/dchohj645\n". $thuong.$maugi."Tăng Follow giá rẻ tại web:".$do."http://autosubsale.online \n". $thuong.$xnhac."Hôm Nay \033[1;36m$weekday \033[1;33mNgày \033[1;36m$ngay \033[1;33mTháng \033[1;36m$thang \033[1;33mNăm \033[1;36m$nam$end\033[0;00m\n".$thuong.$hong."IP Tool Của Bạn: \033[1;97m$ip\n". $luc."╚═════════════════════════════════════════════════════════════════╝\n";
 
 $banner = "\033[1;32m╔═════════════════════════════════════════════════════════════════╗\n". $thuong.$vang."Tool Víp Gộp Nhiều Chế Độ\n". $thuong.$xnhac."YOUTUBE: NTB TOOL\n". $thuong.$BBlue."Zalo:".$do." https://zalo.me/g/dchohj645\n". $thuong.$maugi."Tăng Follow giá rẻ tại web:".$do." http://autosubsale.online \n". $thuong.$xnhac."Hôm Nay \033[1;36m$weekday \033[1;33mNgày \033[1;36m$ngay \033[1;33mTháng \033[1;36m$thang \033[1;33mNăm \033[1;36m$nam$end\033[0;00m\n".$thuong.$hong."IP Tool Của Bạn: \033[1;97m$ip\n". $luc."╚═════════════════════════════════════════════════════════════════╝\n".
-$luc."╔═════════════════════════════════════════════════════════════════╗\n". $luc."╔═════════════════════╗\n". $luc."║ ".$xnhac."Tool Trao Đổi Sub ".$luc."  ║\n". $luc."╚═════════════════════╝\n".
+$luc."╔═════════════════════════════════════════════════════════════════╗\n".
+
+
+$xduong."Hiện tại tool đã bổ sung thêm tool không key 
+link tải tool: $vang https://youtu.be/VqnAe4ckon8\n".
+
+
+$luc."╔═════════════════════╗\n". $luc."║ ".$xnhac."Tool Trao Đổi Sub ".$luc."  ║\n". $luc."╚═════════════════════╝\n".
 
 
 
