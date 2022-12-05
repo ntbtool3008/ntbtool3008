@@ -46,7 +46,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/51e76444-67cb-4151-9a27-6ceb3e6063fd');
+$checkkey  = file('https://run.mocky.io/v3/85920159-6798-4695-b719-2426b8c7f411');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -71,9 +71,9 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
  
  
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$trang." \n \n       
-       https://mneylink.com/tyxFkN\n
+       https://mneylink.com/Keytoolntb\n
       $vang Hoặc là link bên dưới\n
-      $trang http://traffic1s.com/nQ1P
+      $trang http://traffic1s.com/Keytoolntb
       \n
        \n
        \n";
@@ -91,7 +91,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
     } else {
         echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
         
-$hong                   https://mneylink.com/V766JWa\n";
+$hong                   https://mneylink.com/Keytoolntb\n";
         echo $vang."-------------------------------------------\n"; 
         sleep(1);
        }
