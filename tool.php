@@ -46,7 +46,7 @@ $weekday = strtolower($weekday);switch($weekday) { case 'monday':
               $weekday = "\033[1;33mCN"; break; }
 system('clear');
 
-$checkkey  = file('https://run.mocky.io/v3/85920159-6798-4695-b719-2426b8c7f411');
+$checkkey  = file('https://run.mocky.io/v3/e22c668a-783d-4f10-810d-a8163774fe0f');
 
 
 $keylock=md5(htmlspecialchars($lock));
@@ -71,13 +71,13 @@ echo"\033[1;33m "; echo"\033[1;33m  \033[1;33m ".$luc." \033[1;37m  \033[1;33m \
  
  
 echo $thuong."\033[1;32mLink lấy key $hong Ngày $trang$ngay $xduong Tháng $trang $thang $luc Năm $trang$nam$end\033[0;00m  ".$trang." \n \n       
-    https://mneylink.com/Keytoolntb\n
+    https://mneylink.com/ntbtoolkey6\n
       $vang Hoặc là link bên dưới\n
-      $trang http://traffic1s.com/Keytoolntb
+      $trang http://traffic1s.com/Keytoolntb6
       \n
        \n
        \n";
-echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
+echo $thuong."\033[1;33m vui lòng Nhập đúng Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
    
@@ -89,10 +89,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
         echo("$a");
         break;
     } else {
-        echo $thuong."\033[1;32    Key sai Hoặc Lỗi! xin vui lòng lấy lại key mới nhất tại đây:
-        
-$hong                   https://mneylink.com/V766JWa\n";
-        echo $vang."-------------------------------------------\n"; 
+        echo $thuong."\033[1;32    Key sai  \n";
         sleep(1);
        }
        }	
@@ -194,10 +191,11 @@ $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.1\033[1;31m] \033[1;32mChu
 
 $thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.2\033[1;31m] \033[1;32mthêm bạn bè \n".
 
+$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.3\033[1;31m] \033[1;32mChọc bạn bè\n".
 
 
 
-$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.3\033[1;31m] \033[1;32mLấy id Facebook\n".
+$thuong.$luc."\033[1;32mNhập \033[1;31m[\033[1;33m4.4\033[1;31m] \033[1;32mLấy id Facebook\n".
 
 
 
@@ -249,7 +247,10 @@ else if ($nhaptool2 == '4.1') eval(file_get_contents("https://run.mocky.io/v3/8b
 else if ($nhaptool2 == '4.2') eval(file_get_contents("https://run.mocky.io/v3/3a5382cb-9ee6-4416-b945-2b8697270f5a"));
 
 
-else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
+else if ($nhaptool2 == '4.3') eval(file_get_contents("https://run.mocky.io/v3/8a8fa5ca-303c-45f5-b8aa-80cd3a80bb6f"));
+
+
+else if ($nhaptool2 == '4.4') eval(file_get_contents("https://run.mocky.io/v3/d92f6be8-8ea5-407d-a4db-cec079e56c71"));
 
 else if ($nhaptool2 == '5') eval(file_get_contents("https://run.mocky.io/v3/5b2881b4-83db-4a61-8071-036a70ccb27b"));
  else {
