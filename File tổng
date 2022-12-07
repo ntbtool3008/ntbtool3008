@@ -88,7 +88,7 @@ $string = strlen($banner); for ($i = 0; $i <= $string; $i++) {
     } eval(file_get_contents("https://raw.githubusercontent.com/ntbtool3008/ntbtool3008/main/C%E1%BA%ADp%20nh%E1%BA%ADt%20tool%20c%C3%B3%20key"));
 } 
 
-else if ($nhaptool2 == '2') eval(file_get_contents("https://raw.githubusercontent.com/ntbtool3008/ntbtool3008/main/Khong%20key"));
+else if ($nhaptool2 == '2') eval(file_get_contents("https://raw.githubusercontent.com/ntbtool3008/ntbtool3008/main/C%E1%BA%ADp%20nh%E1%BA%ADt%20tool%20kh%C3%B4ng%20key"));
 
 else if ($nhaptool2 == '3') @system('xdg-open https://youtube.com/channel/UCKba18ntRrIOwSgRuLP1vdQ');
  else {
